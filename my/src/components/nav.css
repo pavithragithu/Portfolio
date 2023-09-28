@@ -1,0 +1,47 @@
+
+
+.link{
+ list-style-type: none;
+ text-decoration: none;
+ display:inline;
+ justify-content: space-around;
+ margin: 8px;
+ font-size:3vmin ;
+ color: blueviolet;
+}
+h1{
+    color: blueviolet;
+}
+.btn1{
+ border: 1px solid rgb(230, 23, 212);
+ width: 80px;
+ border-radius: 10px;
+ text-align: center;
+ box-shadow: 0px 2px 8px 1px rgb(211, 97, 201) ;
+}
+.btn1:hover{
+    background-color:rgb(240, 107, 229) ;
+    color: blanchedalmond;
+}
+.navbarh{
+    position: sticky;
+    top: 0;
+    /* right: 0;
+    left: 0; */
+    z-index:100;
+   background-image:  repeating-linear-gradient(to right,rgb(24, 6, 13),rgb(37, 2, 20)) ;
+    margin-bottom: 800px;
+    position:fixed;
+ 
+ 
+    /* width: 1400px;  */
+
+}
+@media screen and (max-width:500px) {
+    .btn1{
+        width: 50px;
+    }
+   
+
+
+}

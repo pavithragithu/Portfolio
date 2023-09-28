@@ -1,0 +1,52 @@
+.tool{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:2px 0px 2px 4px rgb(160, 159, 159);
+}
+.tool:hover{
+    box-shadow:3px 0px 4px 7px rgb(158, 156, 149);
+    transform: scale(1.1);
+}
+.tool2{
+    border-radius:10% ;
+    padding:20px;
+}
+.skillbg{
+    background-image:linear-gradient(to left, rgb(18, 3, 26),rgb(11, 10, 11));
+}
+.year{
+    background-color: rgb(211, 43, 226);
+    color: antiquewhite;
+    border-radius: 10%;
+    width: 200px;
+    padding: 2px;
+    text-align: center;
+    margin-left: 5px;
+}
+.h4{
+    color:rgb(236, 217, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+.vl{
+    border-left:2px solid rgb(211, 43, 226);
+    height:150px;
+    margin:10px ;
+}
+.para{
+  padding-left: 10px;
+}
+.icon{
+    height:50px;
+    width:50px;
+    color:rgb(211, 43, 226);
+    border-radius:50%;
+    border:1px solid rgb(211, 43, 226);
+}
+p{
+    color: bisque;
+}
+#education{
+    background-image:repeating-linear-gradient(to top,rgb(26, 6, 49),rgb(7, 2, 23));
+}

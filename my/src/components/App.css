@@ -1,0 +1,21 @@
+
+ .main{
+    text-align: center;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: flex;
+    background-image:rgb(82, 2, 104) ;
+    opacity: 0.5;
+    z-index:1 ;
+ }
+.main , h1{
+    font-size: 8vmin;
+    color: rgb(65, 236, 22);
+}
+.main,p{
+    color: rgb(5, 20, 151);
+    font-size: large;
+}
